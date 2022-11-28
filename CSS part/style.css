@@ -46,6 +46,3 @@ footer p::first-letter{
 footer p::first-line{
     text-decoration: underline;
 }
-footer p::selection{
-    background-color: aliceblue;
-}
