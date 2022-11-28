@@ -40,9 +40,5 @@ form input[type="checkbox"]:checked {
     color:red;
 }
 
-footer p::first-letter{
-    font-size :40px;
-}
-footer p::first-line{
-    text-decoration: underline;
-}
+
+
