@@ -1,13 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>폼 연습 페이지</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>이건 제목</h1>
+    <h1>폼 연습 페이지</h1>
+
+    <form action="/abc">
+        <button type="button" id="dontsubmit">Don't Submit</button>
+        <p>
+            <label for="username">아이디를 입력하세요:</label>
+            <input id="username" type="text" placeholder="아이디를 입력하세요" name="username">
+        </p>
+        <p>
+            <label for="password">비밀번호를 입력하세요:</label>
+            <input id="password" type="password" placeholder="비밀번호를 입력하세요" name="password">
+        </p>
+        <button>MID</button>
+        <p>
+            <label for="color">색상을 설정해주세요:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="number">숫자를 설정해주세요:</label>
+            <input type="number" id="number" name="num">
+        </p>
+        <button>Submit</button>
+    </form>
+    <h2>타 사이트 검색</h2>
+    <hr>
+    <h3>구글 검색</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>search google</button>
+    </form>
+    <h3>유투브 검색</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>search youtube</button>
+    </form>
+
+    <h2>More Inputs</h2>
+
+    <form action="/hi">
+        <label for="agree">Are you agree?</label>
+        <input type="checkbox" name="agree" id="agree" checked>
+        <p>
+            <label for="XL">XL</label>
+            <input type="radio" name="size" id="XL" value="XL" checked>
+            <label for="L">L</label>
+            <input type="radio" name="size" id="L" value="L">
+            <label for="M">M</label>
+            <input type="radio" name="size" id="M" value="M">
+        </p>
+        <p>
+            <label for="meal">음식을 골라주세요</label>
+            <select name="meal" id="meal">
+                <option value="rice" selected>밥</option>
+                <option value="chiecken">치킨</option>
+                <option value="noodle">국수</option>
+                <option value="bread">빵</option>
+            </select>
+
+        </p>
+        <p>
+            <label for="amount">amout of cheese</label>
+            <input type="range" id="amount" name="amount" min="0" max="10">
+        </p>
+        <p>
+            <textarea id="extra" name="extra" rows="10" cols="40" placeholder="추가요청 사항을 적어주세요"></textarea>
+            <br>
+            <label for="extra">추가요청 사항이 있으면 적어주세요</label>
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <h3>유효성 검사 테스트</h3>
+    <form action="/dummy">
+        <label for="first_name">Type first name</label>
+        <input type="text" id="first_name" name="fisrt_name" required>
+        <br>
+        <label for="email">Type E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <button>Submit</button>
+    </form>
+    <hr>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat error unde odio illo veritatis esse soluta.
+            Aut
+            nam, delectus neque rem a totam. Temporibus vero facilis earum laudantium. Atque, nam!
+            Quisquam ut reprehenderit nobis vero ullam? Qui quasi rerum doloribus exercitationem debitis a et eligendi
+            cupiditate, <span class="span">dolore </span>quibusdam impedit facilis in fuga, est provident, <span
+                class="span">quidem</span> repudiandae minus eius ipsum sunt?
+            Veniam atque repudiandae dolorem fuga illo modi enim harum accusantium. Quisquam sapiente, odit totam cum
+            nulla
+            autem in! Et sit ratione provident doloremque beatae voluptas minus explicabo saepe eveniet ipsa.
+            Sapiente fugiat hic quam natus numquam veritatis impedit. Provident nobis fuga alias, earum ullam debitis
+            sequi
+            rem natus, facilis placeat impedit atque dignissimos!<span class="span">Asperiores</span> corporis
+            laudantium blanditiis atque nemo
+            consequatur.
+            Repudiandae, atque, aspernatur totam nostrum quaerat enim iste reprehenderit excepturi alias esse
+            necessitatibus
+            error fugiat ducimus eligendi optio tenetur? Recusandae aspernatur velit odit debitis blanditiis quod sed
+            adipisci quis. Odit.</p>
+    </footer>
+
 </body>
+
 </html>

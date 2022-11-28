@@ -1,3 +1,51 @@
-h1 { 
-    color:blue;
+body {
+    background-color: #CFF5E7;
+}
+
+h2:hover{
+    color: #0D4C92;
+    font-size: 30px;
+}
+h1:hover{
+    color:pink;
+}
+
+
+#dontsubmit {
+    background-color: #0D4C92;
+    color: white;
+
+}
+
+button:hover {
+    font-size : 30px;
+    background-color: white;
+
+}
+button:active{
+    background-color: red;
+}
+
+
+input[type="password"]{
+    background-color : black;
+    color: white;
+}
+
+p span:hover{
+    font-size: 40px;
+}
+
+form input[type="checkbox"]:checked {
+    color:red;
+}
+
+footer p::first-letter{
+    font-size :40px;
+}
+footer p::first-line{
+    text-decoration: underline;
+}
+footer p::selection{
+    background-color: aliceblue;
 }
