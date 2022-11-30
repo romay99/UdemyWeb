@@ -1,0 +1,42 @@
+div {
+    background-color: pink;
+    width: 200px;
+    height: 250 px;
+}
+
+h1 {
+    background-color: blue;
+    width : 100px;
+    margin-bottom : 0;
+}
+
+#one {
+    background-color: aqua;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+#two {
+    background-color: green;
+    border-color: violet;
+    border-width: 3px;
+    border-style: inset;
+    border-left-width: 5px;;
+    margin: 20px 50px;
+}
+#three {
+    background-color: greenyellow;
+    border:4px black dotted;
+    border-left-style: inset;
+    border-radius: 10px;
+}
+
+button{
+    padding: 20px 100px;
+}
+body {
+    margin :0;
+}
