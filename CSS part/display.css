@@ -19,7 +19,8 @@ section {
 }
 
 section div {
-    background-color: pink;
+    background-color: rgba(0,250,250,0.5);
     width: 50%;
     height: 50%;
+
 }
